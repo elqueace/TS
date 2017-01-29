@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Learn &mdash;</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	{% block stylesheets %}
+   <link rel="stylesheet" href="{{ asset('css/animate.css') }}" />
+   <link rel="stylesheet" href="{{ asset('css/icomoon.css') }}" />
+   <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}" />
+   <link rel="stylesheet" href="{{ asset('css/magnific-popup.css') }}" />
+   <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}" />
+   <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}" />
+   <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+        
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700,800" rel="stylesheet">
+    {% endblock %}
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+    {{ include("::nav.html.twig") }}
+
+	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url({{ asset('images/diverse.jpg') }});" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t">
+						<div class="display-tc animate-box" data-animate-effect="fadeIn">
+							<h1>Join Us</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+     {{ include("::form_log_reg.html.twig") }}
+
+	
+	 {{ include("::footer.html.twig") }}
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+{% block javascripts %}
+    <script src="{{ asset('modernizr-2.6.2.min.js') }}"></script>
+    
+    <script src="{{ asset('js/jquery.min.js') }}"></script>
+        <script src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
+        <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+        <script src="{{ asset('js/jquery.waypoints.min.js') }}"></script>
+        <script src="{{ asset('js/jquery.stellar.min.js') }}"></script>
+        <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+        <script src="{{ asset('js/jquery.countTo.js') }}"></script>
+        <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
+        <script src="{{ asset('js/magnific-popup-options.js') }}"></script>
+        <script src="{{ asset('js/main.js') }}"></script>
+    	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+    <script src="{{ asset('js/google_map.js') }}"></script>
+{% endblock %}
+
+	</body>
+</html>
+
