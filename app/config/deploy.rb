@@ -1,32 +1,25 @@
 
-set :serverName,   "sg211.servergrove.com" # The server's hostname
-set :repository,   "C:/wamp/www/tutorskills_symf/path"
+set :application, "MyApplication"
 
-set :domain,      "tutorskills.ca"
-set :deploy_to,   "/var/www/html/" # Remote location where the project will be stored
-ssh_options[:port] = "22123"
-
-set :scm,         :git
-set :deploy_via,  :rsync_with_remote_cache
-
-# connection
-ssh_options[:port] = 22123
-set  :use_sudo,       false
+# SSH settings
+set :domain,  "tutorskills.ca"
+set :serverName,  "sg211.servergrove.com"
 set :user,        "tutorski"
-set :password, "Manmanw92268869"
+set :password, "Manmanw92268869" #Mot de passe ssh
 
-# Roles
-role :web,        domain
-role :app,        domain
-role :db,         domain, :primary => true
+set :deploy_to,   "/httpdocs"
+set :deploy_via, :copy #Comment déployer les fichiers.
 
-set  :keep_releases,  3 # The number of releases which will remain on the server
+set :app_path,    "app"
 
-# Update vendors during the deploy
-set :update_vendors, true
+# Repository settings
+set :repository,  "https://github.com/elqueace/TS.git"
+set :scm,         :git
 
-# perform tasks after deploying
-after "deploy" do
-  # clear the cache
-  run "cd /symfony_projects/current && php app/console cache:clear"
-end
+set :use_sudo, false #Je n'ai pas les droits pour faire du sudo
+set :use_composer, false
+# Symfony settings
+role :web,        "tutorskills.ca"                         # Your HTTP server, Apache/etc
+role :app,        "tutorskills.ca"                         # This may be the same as your `Web` server
+role :db,         "tutorskills.ca", :primary => true       # This is where Symfony2 migrations will run
+
