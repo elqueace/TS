@@ -24,3 +24,5 @@ role :app,        "tutorskills.ca"                         # This may be the sam
 role :db,         "tutorskills.ca", :primary => true       # This is where Symfony2 migrations will run
 
 set :writable_dirs,       ["app/cache", "app/logs"]
+set :shared_files,    ["app/config/parameters.ini"]
+set :shared_children, [app_path + "/logs", web_path + "/uploads", "vendor"]
