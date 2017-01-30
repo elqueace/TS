@@ -7,7 +7,7 @@ set :serverName,  "sg211.servergrove.com"
 set :user,        "tutorski"
 set :password, "Manmanw92268869" #Mot de passe ssh
 
-set :deploy_to,   "/httpdocs"
+set :deploy_to,   "/var/www/vhosts/yourdomain.com"
 set :deploy_via, :copy #Comment déployer les fichiers.
 
 set :app_path,    "app"
