@@ -25,4 +25,3 @@ role :db,         "tutorskills.ca", :primary => true       # This is where Symfo
 
 set :writable_dirs,       ["app/cache", "app/logs"]
 set :shared_files,    ["app/config/parameters.ini"]
-set :shared_children, [app_path + "/logs", web_path + "/uploads", "vendor"]
