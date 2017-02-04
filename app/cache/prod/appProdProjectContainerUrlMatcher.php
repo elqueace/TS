@@ -28,11 +28,6 @@ class appProdProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBundle\R
         $request = $this->request;
 
         if (0 === strpos($pathinfo, '/platform')) {
-            // oc_platform_homepage
-            if (0 === strpos($pathinfo, '/platform/hello') && preg_match('#^/platform/hello/(?P<name>[^/]++)$#s', $pathinfo, $matches)) {
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'oc_platform_homepage')), array (  '_controller' => 'OC\\PlatformBundle\\Controller\\DefaultController::indexAction',));
-            }
-
             // oc_platform_home
             if (rtrim($pathinfo, '/') === '/platform') {
                 if (substr($pathinfo, -1) !== '/') {
@@ -63,6 +58,16 @@ class appProdProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBundle\R
             // oc_platform_pricing
             if ($pathinfo === '/platform/pricing') {
                 return array (  '_controller' => 'OC\\PlatformBundle\\Controller\\AdvertController::pricingAction',  '_route' => 'oc_platform_pricing',);
+            }
+
+            // oc_platform_about
+            if ($pathinfo === '/platform/about') {
+                return array (  '_controller' => 'OC\\PlatformBundle\\Controller\\AdvertController::aboutAction',  '_route' => 'oc_platform_about',);
+            }
+
+            // oc_platform_log_reg
+            if ($pathinfo === '/platform/log_reg') {
+                return array (  '_controller' => 'OC\\PlatformBundle\\Controller\\AdvertController::log_regAction',  '_route' => 'oc_platform_log_reg',);
             }
 
         }

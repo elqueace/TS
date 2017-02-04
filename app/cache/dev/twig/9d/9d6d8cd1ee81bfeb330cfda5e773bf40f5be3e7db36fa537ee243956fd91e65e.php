@@ -15,8 +15,8 @@ class __TwigTemplate_d5b7b44a98a65880fb50fb66083f9787b86747e79b58239b50141cfd5c0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_d12c2a0f8f5ab9b0c48a98f4f9ab0f23f98f3afe0bc3d24cedc390e0157017c0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_d12c2a0f8f5ab9b0c48a98f4f9ab0f23f98f3afe0bc3d24cedc390e0157017c0->enter($__internal_d12c2a0f8f5ab9b0c48a98f4f9ab0f23f98f3afe0bc3d24cedc390e0157017c0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OCPlatformBundle:Default:index.html.twig"));
+        $__internal_b5027a0c0510894f68e725ea5172fb61678cb6d8d57fe06038b4290917d1e0e6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_b5027a0c0510894f68e725ea5172fb61678cb6d8d57fe06038b4290917d1e0e6->enter($__internal_b5027a0c0510894f68e725ea5172fb61678cb6d8d57fe06038b4290917d1e0e6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OCPlatformBundle:Default:index.html.twig"));
 
         // line 1
         echo "Hello ";
@@ -24,7 +24,7 @@ class __TwigTemplate_d5b7b44a98a65880fb50fb66083f9787b86747e79b58239b50141cfd5c0
         echo "!
 ";
         
-        $__internal_d12c2a0f8f5ab9b0c48a98f4f9ab0f23f98f3afe0bc3d24cedc390e0157017c0->leave($__internal_d12c2a0f8f5ab9b0c48a98f4f9ab0f23f98f3afe0bc3d24cedc390e0157017c0_prof);
+        $__internal_b5027a0c0510894f68e725ea5172fb61678cb6d8d57fe06038b4290917d1e0e6->leave($__internal_b5027a0c0510894f68e725ea5172fb61678cb6d8d57fe06038b4290917d1e0e6_prof);
 
     }
 
@@ -54,6 +54,6 @@ class __TwigTemplate_d5b7b44a98a65880fb50fb66083f9787b86747e79b58239b50141cfd5c0
     public function getSourceContext()
     {
         return new Twig_Source("Hello {{ name }}!
-", "OCPlatformBundle:Default:index.html.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\src\\OC\\PlatformBundle/Resources/views/Default/index.html.twig");
+", "OCPlatformBundle:Default:index.html.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\src\\OC\\PlatformBundle/Resources/views/Default/index.html.twig");
     }
 }

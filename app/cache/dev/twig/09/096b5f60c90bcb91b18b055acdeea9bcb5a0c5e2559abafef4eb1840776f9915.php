@@ -15,8 +15,8 @@ class __TwigTemplate_436db1a2bc57ac2f27b9a44394b9ea300d4f44608215b543adcbd6dbf46
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_cc947d6c117ef862866ce3a7d9023348a9d6a1ff7ed6da190e441c04ecd31c88 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_cc947d6c117ef862866ce3a7d9023348a9d6a1ff7ed6da190e441c04ecd31c88->enter($__internal_cc947d6c117ef862866ce3a7d9023348a9d6a1ff7ed6da190e441c04ecd31c88_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::footer.html.twig"));
+        $__internal_178af48600e25bc58efaee2001dfe886d072d32bc9239d8a319e7c9b2e2a4ca6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_178af48600e25bc58efaee2001dfe886d072d32bc9239d8a319e7c9b2e2a4ca6->enter($__internal_178af48600e25bc58efaee2001dfe886d072d32bc9239d8a319e7c9b2e2a4ca6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::footer.html.twig"));
 
         // line 1
         echo "<footer id=\"fh5co-footer\" role=\"contentinfo\">
@@ -89,7 +89,7 @@ class __TwigTemplate_436db1a2bc57ac2f27b9a44394b9ea300d4f44608215b543adcbd6dbf46
 \t\t</div>
 \t</footer>";
         
-        $__internal_cc947d6c117ef862866ce3a7d9023348a9d6a1ff7ed6da190e441c04ecd31c88->leave($__internal_cc947d6c117ef862866ce3a7d9023348a9d6a1ff7ed6da190e441c04ecd31c88_prof);
+        $__internal_178af48600e25bc58efaee2001dfe886d072d32bc9239d8a319e7c9b2e2a4ca6->leave($__internal_178af48600e25bc58efaee2001dfe886d072d32bc9239d8a319e7c9b2e2a4ca6_prof);
 
     }
 
@@ -181,6 +181,6 @@ class __TwigTemplate_436db1a2bc57ac2f27b9a44394b9ea300d4f44608215b543adcbd6dbf46
 \t\t\t</div>
 
 \t\t</div>
-\t</footer>", "::footer.html.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\app/Resources\\views/footer.html.twig");
+\t</footer>", "::footer.html.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\app/Resources\\views/footer.html.twig");
     }
 }

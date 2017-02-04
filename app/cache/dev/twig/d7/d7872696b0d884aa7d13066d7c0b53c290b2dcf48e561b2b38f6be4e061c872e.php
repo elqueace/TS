@@ -15,8 +15,8 @@ class __TwigTemplate_feda4a4143a7e9abf764afca659435fe23396348d1cd5ad4b594bd97cd5
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_37987a1520b4f01999e794367f6404b1dadb7733487bf425319ca45cfbf56ce6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_37987a1520b4f01999e794367f6404b1dadb7733487bf425319ca45cfbf56ce6->enter($__internal_37987a1520b4f01999e794367f6404b1dadb7733487bf425319ca45cfbf56ce6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.xml.twig"));
+        $__internal_7dc1004bfa182fac118be4f71bb217ab524a9df66b1cc32f2be2658e8072f0db = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_7dc1004bfa182fac118be4f71bb217ab524a9df66b1cc32f2be2658e8072f0db->enter($__internal_7dc1004bfa182fac118be4f71bb217ab524a9df66b1cc32f2be2658e8072f0db_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.xml.twig"));
 
         // line 1
         echo "<?xml version=\"1.0\" encoding=\"";
@@ -54,7 +54,7 @@ class __TwigTemplate_feda4a4143a7e9abf764afca659435fe23396348d1cd5ad4b594bd97cd5
         echo "</error>
 ";
         
-        $__internal_37987a1520b4f01999e794367f6404b1dadb7733487bf425319ca45cfbf56ce6->leave($__internal_37987a1520b4f01999e794367f6404b1dadb7733487bf425319ca45cfbf56ce6_prof);
+        $__internal_7dc1004bfa182fac118be4f71bb217ab524a9df66b1cc32f2be2658e8072f0db->leave($__internal_7dc1004bfa182fac118be4f71bb217ab524a9df66b1cc32f2be2658e8072f0db_prof);
 
     }
 
@@ -92,6 +92,6 @@ class __TwigTemplate_feda4a4143a7e9abf764afca659435fe23396348d1cd5ad4b594bd97cd5
     </exception>
 {% endfor %}
 </error>
-", "TwigBundle:Exception:exception.xml.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\TwigBundle/Resources/views/Exception/exception.xml.twig");
+", "TwigBundle:Exception:exception.xml.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\TwigBundle/Resources/views/Exception/exception.xml.twig");
     }
 }

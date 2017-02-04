@@ -15,8 +15,8 @@ class __TwigTemplate_81c78b910125d1f6c46065e2d266e9ae1f1fc8b17fdfe4d21af2d7ba117
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_7405964fab29301a7751f24207dd5470a072810f70dd4954d0f8382ca201aa6b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_7405964fab29301a7751f24207dd5470a072810f70dd4954d0f8382ca201aa6b->enter($__internal_7405964fab29301a7751f24207dd5470a072810f70dd4954d0f8382ca201aa6b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.html.twig"));
+        $__internal_8a946663c8e34c4e11d0db4fa20befc0863f5b222ae57d20a124efbd9824e29c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8a946663c8e34c4e11d0db4fa20befc0863f5b222ae57d20a124efbd9824e29c->enter($__internal_8a946663c8e34c4e11d0db4fa20befc0863f5b222ae57d20a124efbd9824e29c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -48,7 +48,7 @@ class __TwigTemplate_81c78b910125d1f6c46065e2d266e9ae1f1fc8b17fdfe4d21af2d7ba117
 </html>
 ";
         
-        $__internal_7405964fab29301a7751f24207dd5470a072810f70dd4954d0f8382ca201aa6b->leave($__internal_7405964fab29301a7751f24207dd5470a072810f70dd4954d0f8382ca201aa6b_prof);
+        $__internal_8a946663c8e34c4e11d0db4fa20befc0863f5b222ae57d20a124efbd9824e29c->leave($__internal_8a946663c8e34c4e11d0db4fa20befc0863f5b222ae57d20a124efbd9824e29c_prof);
 
     }
 
@@ -93,6 +93,6 @@ class __TwigTemplate_81c78b910125d1f6c46065e2d266e9ae1f1fc8b17fdfe4d21af2d7ba117
         </div>
     </body>
 </html>
-", "TwigBundle:Exception:error.html.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\TwigBundle/Resources/views/Exception/error.html.twig");
+", "TwigBundle:Exception:error.html.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\TwigBundle/Resources/views/Exception/error.html.twig");
     }
 }

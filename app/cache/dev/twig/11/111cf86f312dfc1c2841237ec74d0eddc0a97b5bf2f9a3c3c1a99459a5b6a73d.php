@@ -15,8 +15,8 @@ class __TwigTemplate_9ce35dabd4d3b3fe706a19347dc51514b97a118288a9ab2a89624047c26
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_1d09cf8d75ed37f703e994253374e85dffc102a9d100444b57b654328b8db303 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_1d09cf8d75ed37f703e994253374e85dffc102a9d100444b57b654328b8db303->enter($__internal_1d09cf8d75ed37f703e994253374e85dffc102a9d100444b57b654328b8db303_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Router:panel.html.twig"));
+        $__internal_9b04b413e76e5b63799b8f118d0f5fd0ae5d65529bbdeab514adad9d5170ac28 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_9b04b413e76e5b63799b8f118d0f5fd0ae5d65529bbdeab514adad9d5170ac28->enter($__internal_9b04b413e76e5b63799b8f118d0f5fd0ae5d65529bbdeab514adad9d5170ac28_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Router:panel.html.twig"));
 
         // line 1
         echo "<h2>Routing for \"";
@@ -120,7 +120,7 @@ class __TwigTemplate_9ce35dabd4d3b3fe706a19347dc51514b97a118288a9ab2a89624047c26
 </ul>
 ";
         
-        $__internal_1d09cf8d75ed37f703e994253374e85dffc102a9d100444b57b654328b8db303->leave($__internal_1d09cf8d75ed37f703e994253374e85dffc102a9d100444b57b654328b8db303_prof);
+        $__internal_9b04b413e76e5b63799b8f118d0f5fd0ae5d65529bbdeab514adad9d5170ac28->leave($__internal_9b04b413e76e5b63799b8f118d0f5fd0ae5d65529bbdeab514adad9d5170ac28_prof);
 
     }
 
@@ -193,6 +193,6 @@ class __TwigTemplate_9ce35dabd4d3b3fe706a19347dc51514b97a118288a9ab2a89624047c26
         the configuration used while routing this request.</small></em>
     </li>
 </ul>
-", "WebProfilerBundle:Router:panel.html.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\WebProfilerBundle/Resources/views/Router/panel.html.twig");
+", "WebProfilerBundle:Router:panel.html.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\WebProfilerBundle/Resources/views/Router/panel.html.twig");
     }
 }

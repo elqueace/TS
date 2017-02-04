@@ -15,13 +15,13 @@ class __TwigTemplate_af098a79aa984bd7a09543e4676bcd1b7b09899c20f4815eca8814c073c
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_fd5586e60299fdd87533a971945882b8acdfcbc333e502f049af8ea1de801d11 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_fd5586e60299fdd87533a971945882b8acdfcbc333e502f049af8ea1de801d11->enter($__internal_fd5586e60299fdd87533a971945882b8acdfcbc333e502f049af8ea1de801d11_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.atom.twig"));
+        $__internal_144e797301911de15a7751338fad9c511a0399783e3280fef9c7846e00a7d978 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_144e797301911de15a7751338fad9c511a0399783e3280fef9c7846e00a7d978->enter($__internal_144e797301911de15a7751338fad9c511a0399783e3280fef9c7846e00a7d978_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.atom.twig"));
 
         // line 1
         $this->loadTemplate("TwigBundle:Exception:error.xml.twig", "TwigBundle:Exception:error.atom.twig", 1)->display($context);
         
-        $__internal_fd5586e60299fdd87533a971945882b8acdfcbc333e502f049af8ea1de801d11->leave($__internal_fd5586e60299fdd87533a971945882b8acdfcbc333e502f049af8ea1de801d11_prof);
+        $__internal_144e797301911de15a7751338fad9c511a0399783e3280fef9c7846e00a7d978->leave($__internal_144e797301911de15a7751338fad9c511a0399783e3280fef9c7846e00a7d978_prof);
 
     }
 
@@ -46,6 +46,6 @@ class __TwigTemplate_af098a79aa984bd7a09543e4676bcd1b7b09899c20f4815eca8814c073c
     public function getSourceContext()
     {
         return new Twig_Source("{% include 'TwigBundle:Exception:error.xml.twig' %}
-", "TwigBundle:Exception:error.atom.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\TwigBundle/Resources/views/Exception/error.atom.twig");
+", "TwigBundle:Exception:error.atom.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\TwigBundle/Resources/views/Exception/error.atom.twig");
     }
 }
