@@ -23,3 +23,5 @@ role :web,        "tutorskills.ca"                         # Your HTTP server, A
 role :app,        "tutorskills.ca"                         # This may be the same as your `Web` server
 role :db,         "tutorskills.ca", :primary => true       # This is where Symfony2 migrations will run
 
+set :writable_dirs,       ["app/cache", "app/logs"]
+set :shared_files,    ["app/config/parameters.ini"]
