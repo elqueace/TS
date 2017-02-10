@@ -1,3 +1,4 @@
+
 <nav class="fh5co-nav" role="navigation">
 		<div class="top">
 			<div class="container">
@@ -23,9 +24,9 @@
 					</div>
 					<div class="col-xs-11 text-right menu-1">
 						<ul>
-							<li class="active"><a href="/app_dev.php/platform">Home</a></li>
-							<li><a href="about">About Us</a></li>
-							<li><a href="pricing">Pricing</a></li>
+							<li class="active"><a href="{{path('oc_platform_home')}}">Home</a></li>
+							<li><a href="{{path('oc_platform_about')}}">About Us</a></li>
+							<li><a href="{{path('oc_platform_pricing')}}">Pricing</a></li>
 							<li class="has-dropdown">
 								<a href="blog.html">Blog</a>
 								<ul class="dropdown">
@@ -34,8 +35,8 @@
 									<li><a href="#">Branding</a></li>
 									<li><a href="#">API</a></li>
 								</ul>
-                            </li>
-							<li><a href="contact">Contact</a></li>
+							</li>
+							<li><a href="{{path('oc_platform_contact')}}">Contact</a></li>
                             {% if 21 < 12 %}
                                 <li><a href="profile.php">My profile</a></li>
                                 <li><a href="textchat_demo.php">Text Chat</a></li>
