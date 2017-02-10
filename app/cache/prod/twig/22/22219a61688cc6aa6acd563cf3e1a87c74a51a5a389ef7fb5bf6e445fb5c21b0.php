@@ -592,6 +592,6 @@ class __TwigTemplate_47819a2af50cc81e49ef3c2c376fc66038f3e87712b866debaa218fa339
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "::layout.html.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\app/Resources\\views/layout.html.twig");
+        return new Twig_Source("", "::layout.html.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\app/Resources\\views/layout.html.twig");
     }
 }

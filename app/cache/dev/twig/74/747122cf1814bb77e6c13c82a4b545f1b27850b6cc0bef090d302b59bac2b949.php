@@ -18,8 +18,8 @@ class __TwigTemplate_c325f73c1c8135e01687ea035644617f5f7dcba53d3bc0e2191d64708d6
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_b969308a6cb75e113e6f5e649fd39bf84fdca58862fce9c5f134f9ffe5e11862 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_b969308a6cb75e113e6f5e649fd39bf84fdca58862fce9c5f134f9ffe5e11862->enter($__internal_b969308a6cb75e113e6f5e649fd39bf84fdca58862fce9c5f134f9ffe5e11862_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::layout.html.twig"));
+        $__internal_f2a441271e435d2b3ec81ea12fda2af4d23a85cf67fa424005277bf05a24b947 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f2a441271e435d2b3ec81ea12fda2af4d23a85cf67fa424005277bf05a24b947->enter($__internal_f2a441271e435d2b3ec81ea12fda2af4d23a85cf67fa424005277bf05a24b947_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::layout.html.twig"));
 
         // line 2
         echo "
@@ -470,27 +470,27 @@ class __TwigTemplate_c325f73c1c8135e01687ea035644617f5f7dcba53d3bc0e2191d64708d6
 \t</body>
 </html>";
         
-        $__internal_b969308a6cb75e113e6f5e649fd39bf84fdca58862fce9c5f134f9ffe5e11862->leave($__internal_b969308a6cb75e113e6f5e649fd39bf84fdca58862fce9c5f134f9ffe5e11862_prof);
+        $__internal_f2a441271e435d2b3ec81ea12fda2af4d23a85cf67fa424005277bf05a24b947->leave($__internal_f2a441271e435d2b3ec81ea12fda2af4d23a85cf67fa424005277bf05a24b947_prof);
 
     }
 
     // line 27
     public function block_title($context, array $blocks = array())
     {
-        $__internal_ff06762251ab54aa0fcc972c74dcee6ced028b385fab5dc6d17445f33b6f8f81 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ff06762251ab54aa0fcc972c74dcee6ced028b385fab5dc6d17445f33b6f8f81->enter($__internal_ff06762251ab54aa0fcc972c74dcee6ced028b385fab5dc6d17445f33b6f8f81_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
+        $__internal_1dd3f3cf637da27c621896ed6b657ead2244841255c3e6ea6392aa46d334be66 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1dd3f3cf637da27c621896ed6b657ead2244841255c3e6ea6392aa46d334be66->enter($__internal_1dd3f3cf637da27c621896ed6b657ead2244841255c3e6ea6392aa46d334be66_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "title"));
 
         echo "Application web de tchat";
         
-        $__internal_ff06762251ab54aa0fcc972c74dcee6ced028b385fab5dc6d17445f33b6f8f81->leave($__internal_ff06762251ab54aa0fcc972c74dcee6ced028b385fab5dc6d17445f33b6f8f81_prof);
+        $__internal_1dd3f3cf637da27c621896ed6b657ead2244841255c3e6ea6392aa46d334be66->leave($__internal_1dd3f3cf637da27c621896ed6b657ead2244841255c3e6ea6392aa46d334be66_prof);
 
     }
 
     // line 29
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_76b9b87f2be5b44371ccbec4d7b6060a40ba07353de9a09b48633d455a23229e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_76b9b87f2be5b44371ccbec4d7b6060a40ba07353de9a09b48633d455a23229e->enter($__internal_76b9b87f2be5b44371ccbec4d7b6060a40ba07353de9a09b48633d455a23229e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_55e86c0091b8eb2e66a7d3fc191912cdb3d6647d61e9804c9a77fc946a9fcb58 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_55e86c0091b8eb2e66a7d3fc191912cdb3d6647d61e9804c9a77fc946a9fcb58->enter($__internal_55e86c0091b8eb2e66a7d3fc191912cdb3d6647d61e9804c9a77fc946a9fcb58_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 30
         echo "   <link href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\" rel=\"stylesheet\">
@@ -525,15 +525,15 @@ class __TwigTemplate_c325f73c1c8135e01687ea035644617f5f7dcba53d3bc0e2191d64708d6
 
   ";
         
-        $__internal_76b9b87f2be5b44371ccbec4d7b6060a40ba07353de9a09b48633d455a23229e->leave($__internal_76b9b87f2be5b44371ccbec4d7b6060a40ba07353de9a09b48633d455a23229e_prof);
+        $__internal_55e86c0091b8eb2e66a7d3fc191912cdb3d6647d61e9804c9a77fc946a9fcb58->leave($__internal_55e86c0091b8eb2e66a7d3fc191912cdb3d6647d61e9804c9a77fc946a9fcb58_prof);
 
     }
 
     // line 40
     public function block_javascripts($context, array $blocks = array())
     {
-        $__internal_c1bcfd6491d71d2ab4129d10cbb0f7b6da57ac9082e394b90b25067440432356 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_c1bcfd6491d71d2ab4129d10cbb0f7b6da57ac9082e394b90b25067440432356->enter($__internal_c1bcfd6491d71d2ab4129d10cbb0f7b6da57ac9082e394b90b25067440432356_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_99a648a44183bfa6cbbb4dadb93e7db821414905b1defd384b99f225c8c435d8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_99a648a44183bfa6cbbb4dadb93e7db821414905b1defd384b99f225c8c435d8->enter($__internal_99a648a44183bfa6cbbb4dadb93e7db821414905b1defd384b99f225c8c435d8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
         // line 41
         echo "   <script src=\"";
@@ -587,7 +587,7 @@ class __TwigTemplate_c325f73c1c8135e01687ea035644617f5f7dcba53d3bc0e2191d64708d6
         echo "\"></script>
 ";
         
-        $__internal_c1bcfd6491d71d2ab4129d10cbb0f7b6da57ac9082e394b90b25067440432356->leave($__internal_c1bcfd6491d71d2ab4129d10cbb0f7b6da57ac9082e394b90b25067440432356_prof);
+        $__internal_99a648a44183bfa6cbbb4dadb93e7db821414905b1defd384b99f225c8c435d8->leave($__internal_99a648a44183bfa6cbbb4dadb93e7db821414905b1defd384b99f225c8c435d8_prof);
 
     }
 
@@ -1024,6 +1024,6 @@ class __TwigTemplate_c325f73c1c8135e01687ea035644617f5f7dcba53d3bc0e2191d64708d6
 \t\t<a href=\"#\" class=\"js-gotop\"><i class=\"icon-arrow-up\"></i></a>
 \t</div>
 \t</body>
-</html>", "::layout.html.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\app/Resources\\views/layout.html.twig");
+</html>", "::layout.html.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\app/Resources\\views/layout.html.twig");
     }
 }

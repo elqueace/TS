@@ -20,12 +20,12 @@ class __TwigTemplate_c387cf8bd5a883f379e97f645369ff9a59900caf3948907166731ab1ad7
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_dc25b86b3ad193ce8c5b961596088cf45cf4f402b6e092db2956cba676165b99 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_dc25b86b3ad193ce8c5b961596088cf45cf4f402b6e092db2956cba676165b99->enter($__internal_dc25b86b3ad193ce8c5b961596088cf45cf4f402b6e092db2956cba676165b99_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OCPlatformBundle::layout.html.twig"));
+        $__internal_a5e8c2022b8c9301b8385ddba94e7b4a806e2fce56d8246913e0ca5e2c10063c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a5e8c2022b8c9301b8385ddba94e7b4a806e2fce56d8246913e0ca5e2c10063c->enter($__internal_a5e8c2022b8c9301b8385ddba94e7b4a806e2fce56d8246913e0ca5e2c10063c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "OCPlatformBundle::layout.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_dc25b86b3ad193ce8c5b961596088cf45cf4f402b6e092db2956cba676165b99->leave($__internal_dc25b86b3ad193ce8c5b961596088cf45cf4f402b6e092db2956cba676165b99_prof);
+        $__internal_a5e8c2022b8c9301b8385ddba94e7b4a806e2fce56d8246913e0ca5e2c10063c->leave($__internal_a5e8c2022b8c9301b8385ddba94e7b4a806e2fce56d8246913e0ca5e2c10063c_prof);
 
     }
 
@@ -57,6 +57,6 @@ class __TwigTemplate_c387cf8bd5a883f379e97f645369ff9a59900caf3948907166731ab1ad7
         return new Twig_Source("{# src/OC/PlatformBundle/Resources/views/layout.html.twig #}
 
 {% extends \"::layout.html.twig\" %}
-", "OCPlatformBundle::layout.html.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\src\\OC\\PlatformBundle/Resources/views/layout.html.twig");
+", "OCPlatformBundle::layout.html.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\src\\OC\\PlatformBundle/Resources/views/layout.html.twig");
     }
 }

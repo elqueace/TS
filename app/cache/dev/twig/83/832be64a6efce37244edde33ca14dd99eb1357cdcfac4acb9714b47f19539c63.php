@@ -15,8 +15,8 @@ class __TwigTemplate_9f169636dcff752945aec07dd0f93684a7f2a73ef3b769826d751329f14
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_adfa39b6f9990b4d737d91c3018c57502686c968e9de503e7647c089c12cfa6f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_adfa39b6f9990b4d737d91c3018c57502686c968e9de503e7647c089c12cfa6f->enter($__internal_adfa39b6f9990b4d737d91c3018c57502686c968e9de503e7647c089c12cfa6f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:header.html.twig"));
+        $__internal_fb2cc5d9a48730ac1a28190e86672f7b74098f7993149604f7ab9b72113754e4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_fb2cc5d9a48730ac1a28190e86672f7b74098f7993149604f7ab9b72113754e4->enter($__internal_fb2cc5d9a48730ac1a28190e86672f7b74098f7993149604f7ab9b72113754e4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Profiler:header.html.twig"));
 
         // line 1
         echo "<div id=\"header\" class=\"clear-fix\">
@@ -46,7 +46,7 @@ class __TwigTemplate_9f169636dcff752945aec07dd0f93684a7f2a73ef3b769826d751329f14
 </div>
 ";
         
-        $__internal_adfa39b6f9990b4d737d91c3018c57502686c968e9de503e7647c089c12cfa6f->leave($__internal_adfa39b6f9990b4d737d91c3018c57502686c968e9de503e7647c089c12cfa6f_prof);
+        $__internal_fb2cc5d9a48730ac1a28190e86672f7b74098f7993149604f7ab9b72113754e4->leave($__internal_fb2cc5d9a48730ac1a28190e86672f7b74098f7993149604f7ab9b72113754e4_prof);
 
     }
 
@@ -95,6 +95,6 @@ class __TwigTemplate_9f169636dcff752945aec07dd0f93684a7f2a73ef3b769826d751329f14
        </form>
     </div>
 </div>
-", "WebProfilerBundle:Profiler:header.html.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\WebProfilerBundle/Resources/views/Profiler/header.html.twig");
+", "WebProfilerBundle:Profiler:header.html.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\WebProfilerBundle/Resources/views/Profiler/header.html.twig");
     }
 }

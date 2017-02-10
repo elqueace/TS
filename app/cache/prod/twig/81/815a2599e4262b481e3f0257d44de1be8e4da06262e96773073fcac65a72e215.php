@@ -953,6 +953,6 @@ class __TwigTemplate_b9cc204e860ba82252199a8be4f8df4bbd29d203bd4d7e033ba04d6256d
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "DoctrineBundle:Collector:db.html.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\vendor\\doctrine\\doctrine-bundle/Resources/views/Collector/db.html.twig");
+        return new Twig_Source("", "DoctrineBundle:Collector:db.html.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\vendor\\doctrine\\doctrine-bundle/Resources/views/Collector/db.html.twig");
     }
 }

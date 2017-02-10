@@ -15,8 +15,8 @@ class __TwigTemplate_34029147c15d20c788623fb2d029c2d703fab6719c62e57e1a9ce8c562b
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_823a280e2a5de45f5f5c949576bf48b8c5bc44e3dbf6004143ff327644e905c2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_823a280e2a5de45f5f5c949576bf48b8c5bc44e3dbf6004143ff327644e905c2->enter($__internal_823a280e2a5de45f5f5c949576bf48b8c5bc44e3dbf6004143ff327644e905c2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Collector:exception.css.twig"));
+        $__internal_0ae5fd4c1dfe8880fccc57b739c522285140b968b870707d8e4221975e7bf0e0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_0ae5fd4c1dfe8880fccc57b739c522285140b968b870707d8e4221975e7bf0e0->enter($__internal_0ae5fd4c1dfe8880fccc57b739c522285140b968b870707d8e4221975e7bf0e0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "WebProfilerBundle:Collector:exception.css.twig"));
 
         // line 1
         echo ".sf-reset .traces {
@@ -124,7 +124,7 @@ class __TwigTemplate_34029147c15d20c788623fb2d029c2d703fab6719c62e57e1a9ce8c562b
 }
 ";
         
-        $__internal_823a280e2a5de45f5f5c949576bf48b8c5bc44e3dbf6004143ff327644e905c2->leave($__internal_823a280e2a5de45f5f5c949576bf48b8c5bc44e3dbf6004143ff327644e905c2_prof);
+        $__internal_0ae5fd4c1dfe8880fccc57b739c522285140b968b870707d8e4221975e7bf0e0->leave($__internal_0ae5fd4c1dfe8880fccc57b739c522285140b968b870707d8e4221975e7bf0e0_prof);
 
     }
 
@@ -251,6 +251,6 @@ class __TwigTemplate_34029147c15d20c788623fb2d029c2d703fab6719c62e57e1a9ce8c562b
     color: #000;
     font-size: 12px;
 }
-", "WebProfilerBundle:Collector:exception.css.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\WebProfilerBundle/Resources/views/Collector/exception.css.twig");
+", "WebProfilerBundle:Collector:exception.css.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\WebProfilerBundle/Resources/views/Collector/exception.css.twig");
     }
 }

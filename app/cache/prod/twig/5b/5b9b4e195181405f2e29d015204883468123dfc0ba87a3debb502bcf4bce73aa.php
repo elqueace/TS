@@ -372,6 +372,6 @@ class __TwigTemplate_7e7d4f908e00f9f377b1d99f04b499c97d5606d08476abce5f7c2766400
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "OCPlatformBundle:Advert:about.html.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\src\\OC\\PlatformBundle/Resources/views/Advert/about.html.twig");
+        return new Twig_Source("", "OCPlatformBundle:Advert:about.html.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\src\\OC\\PlatformBundle/Resources/views/Advert/about.html.twig");
     }
 }

@@ -306,6 +306,6 @@ class __TwigTemplate_d4374536b4fb3063188045e0f22609808e5cd71a6874a3beefdd07d8f14
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "OCPlatformBundle:Advert:pricing.html.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\src\\OC\\PlatformBundle/Resources/views/Advert/pricing.html.twig");
+        return new Twig_Source("", "OCPlatformBundle:Advert:pricing.html.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\src\\OC\\PlatformBundle/Resources/views/Advert/pricing.html.twig");
     }
 }

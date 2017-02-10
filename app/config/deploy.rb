@@ -5,13 +5,12 @@ set :application, "MyApplication"
 set :domain,  "tutorskills.ca"
 set :serverName,  "sg211.servergrove.com"
 set :user,        "tutorski"
-set :password, "Manmanw92268869" #Mot de passe ssh
 
 set :deploy_to,   "/var/www/vhosts/tutorskills.ca/httpdocs"
 set :deploy_via, :copy #Comment déployer les fichiers.
 
 set :app_path,    "app"
-
+ssh_options[:port] = "22123"
 # Repository settings
 set :repository,  "https://github.com/elqueace/TS.git"
 set :scm,         :git

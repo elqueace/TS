@@ -15,13 +15,13 @@ class __TwigTemplate_939bc0e761a87fa35fb2a6a4285c8717548f12268b42043da4e05830888
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_4b3618391a227dd2047a76442bcd65e861cf5ca62a0f309b7c86fe9a215816f2 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4b3618391a227dd2047a76442bcd65e861cf5ca62a0f309b7c86fe9a215816f2->enter($__internal_4b3618391a227dd2047a76442bcd65e861cf5ca62a0f309b7c86fe9a215816f2_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.atom.twig"));
+        $__internal_de6ab39d5a5875f8f9abeb1dfd067e63566e62d34a0a6cbbd4e6bf7296b95528 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_de6ab39d5a5875f8f9abeb1dfd067e63566e62d34a0a6cbbd4e6bf7296b95528->enter($__internal_de6ab39d5a5875f8f9abeb1dfd067e63566e62d34a0a6cbbd4e6bf7296b95528_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:exception.atom.twig"));
 
         // line 1
         $this->loadTemplate("TwigBundle:Exception:exception.xml.twig", "TwigBundle:Exception:exception.atom.twig", 1)->display(array_merge($context, array("exception" => (isset($context["exception"]) ? $context["exception"] : $this->getContext($context, "exception")))));
         
-        $__internal_4b3618391a227dd2047a76442bcd65e861cf5ca62a0f309b7c86fe9a215816f2->leave($__internal_4b3618391a227dd2047a76442bcd65e861cf5ca62a0f309b7c86fe9a215816f2_prof);
+        $__internal_de6ab39d5a5875f8f9abeb1dfd067e63566e62d34a0a6cbbd4e6bf7296b95528->leave($__internal_de6ab39d5a5875f8f9abeb1dfd067e63566e62d34a0a6cbbd4e6bf7296b95528_prof);
 
     }
 
@@ -51,6 +51,6 @@ class __TwigTemplate_939bc0e761a87fa35fb2a6a4285c8717548f12268b42043da4e05830888
     public function getSourceContext()
     {
         return new Twig_Source("{% include 'TwigBundle:Exception:exception.xml.twig' with { 'exception': exception } %}
-", "TwigBundle:Exception:exception.atom.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\TwigBundle/Resources/views/Exception/exception.atom.twig");
+", "TwigBundle:Exception:exception.atom.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\TwigBundle/Resources/views/Exception/exception.atom.twig");
     }
 }

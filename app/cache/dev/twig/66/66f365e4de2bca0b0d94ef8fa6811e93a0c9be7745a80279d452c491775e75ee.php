@@ -15,11 +15,12 @@ class __TwigTemplate_ddb3d4ac25cee64ffb9b0d03fa6038c937a564001dad8741666194b0fd7
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_07383284076f615da3b509a9fbb88ed3d931665bba2c097d3fd8f0ecb117265a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_07383284076f615da3b509a9fbb88ed3d931665bba2c097d3fd8f0ecb117265a->enter($__internal_07383284076f615da3b509a9fbb88ed3d931665bba2c097d3fd8f0ecb117265a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::nav.html.twig"));
+        $__internal_d422d4666be1d20fd4c390aeab7563499cbb34619d636f5ea0b6495bbfa9cfb7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d422d4666be1d20fd4c390aeab7563499cbb34619d636f5ea0b6495bbfa9cfb7->enter($__internal_d422d4666be1d20fd4c390aeab7563499cbb34619d636f5ea0b6495bbfa9cfb7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::nav.html.twig"));
 
         // line 1
-        echo "<nav class=\"fh5co-nav\" role=\"navigation\">
+        echo "
+<nav class=\"fh5co-nav\" role=\"navigation\">
 \t\t<div class=\"top\">
 \t\t\t<div class=\"container\">
 \t\t\t\t<div class=\"row\">
@@ -40,17 +41,26 @@ class __TwigTemplate_ddb3d4ac25cee64ffb9b0d03fa6038c937a564001dad8741666194b0fd7
 \t\t\t\t\t<div class=\"col-xs-1 text-left\">
 \t\t\t\t\t\t<div id=\"fh5co-logo\" >
                             <img class=\"\" src=\"";
-        // line 21
+        // line 22
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("images/logo_ts0.jpg"), "html", null, true);
         echo "\" alt=\"logo\" >
                         </div>
 \t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"col-xs-11 text-right menu-1\">
 \t\t\t\t\t\t<ul>
-\t\t\t\t\t\t\t<li class=\"active\"><a href=\"/app_dev.php/platform\">Home</a></li>
-\t\t\t\t\t\t\t<li><a href=\"about\">About Us</a></li>
-\t\t\t\t\t\t\t<li><a href=\"pricing\">Pricing</a></li>
-\t\t\t\t\t\t\t<!--<li class=\"has-dropdown\">
+\t\t\t\t\t\t\t<li class=\"active\"><a href=\"";
+        // line 27
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("oc_platform_home");
+        echo "\">Home</a></li>
+\t\t\t\t\t\t\t<li><a href=\"";
+        // line 28
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("oc_platform_about");
+        echo "\">About Us</a></li>
+\t\t\t\t\t\t\t<li><a href=\"";
+        // line 29
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("oc_platform_pricing");
+        echo "\">Pricing</a></li>
+\t\t\t\t\t\t\t<li class=\"has-dropdown\">
 \t\t\t\t\t\t\t\t<a href=\"blog.html\">Blog</a>
 \t\t\t\t\t\t\t\t<ul class=\"dropdown\">
 \t\t\t\t\t\t\t\t\t<li><a href=\"#\">Web Design</a></li>
@@ -58,30 +68,33 @@ class __TwigTemplate_ddb3d4ac25cee64ffb9b0d03fa6038c937a564001dad8741666194b0fd7
 \t\t\t\t\t\t\t\t\t<li><a href=\"#\">Branding</a></li>
 \t\t\t\t\t\t\t\t\t<li><a href=\"#\">API</a></li>
 \t\t\t\t\t\t\t\t</ul>
-\t\t\t\t\t\t\t</li>-->
-\t\t\t\t\t\t\t<li><a href=\"contact\">Contact</a></li>
-                            ";
+\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t<li><a href=\"";
         // line 39
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("oc_platform_contact");
+        echo "\">Contact</a></li>
+                            ";
+        // line 40
         if ((21 < 12)) {
-            // line 40
+            // line 41
             echo "                                <li><a href=\"profile.php\">My profile</a></li>
                                 <li><a href=\"textchat_demo.php\">Text Chat</a></li>
                             ";
         }
-        // line 43
+        // line 44
         echo "                    
                             ";
-        // line 44
+        // line 45
         if ((1 < 12)) {
-            // line 45
+            // line 46
             echo "\t\t\t\t\t\t\t<li class=\"btn-cta\"><a href=\"log_reg\"><span>Sign Up | Login</span></a></li>
                             ";
         } else {
-            // line 47
+            // line 48
             echo "                                <li><a href=\"logout.php\"><span class=\"glyphicon glyphicon-user\"></span>Logout</a></li>
                             ";
         }
-        // line 49
+        // line 50
         echo "\t\t\t\t\t\t\t<li class=\"btn-cta\"><a href=\"#\"><span>Create a Course</span></a></li>
 \t\t\t\t\t\t</ul>
 \t\t\t\t\t</div>
@@ -91,7 +104,7 @@ class __TwigTemplate_ddb3d4ac25cee64ffb9b0d03fa6038c937a564001dad8741666194b0fd7
 \t\t</div>
 \t</nav>";
         
-        $__internal_07383284076f615da3b509a9fbb88ed3d931665bba2c097d3fd8f0ecb117265a->leave($__internal_07383284076f615da3b509a9fbb88ed3d931665bba2c097d3fd8f0ecb117265a_prof);
+        $__internal_d422d4666be1d20fd4c390aeab7563499cbb34619d636f5ea0b6495bbfa9cfb7->leave($__internal_d422d4666be1d20fd4c390aeab7563499cbb34619d636f5ea0b6495bbfa9cfb7_prof);
 
     }
 
@@ -107,7 +120,7 @@ class __TwigTemplate_ddb3d4ac25cee64ffb9b0d03fa6038c937a564001dad8741666194b0fd7
 
     public function getDebugInfo()
     {
-        return array (  85 => 49,  81 => 47,  77 => 45,  75 => 44,  72 => 43,  67 => 40,  65 => 39,  44 => 21,  22 => 1,);
+        return array (  98 => 50,  94 => 48,  90 => 46,  88 => 45,  85 => 44,  80 => 41,  78 => 40,  74 => 39,  61 => 29,  57 => 28,  53 => 27,  45 => 22,  22 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -120,7 +133,8 @@ class __TwigTemplate_ddb3d4ac25cee64ffb9b0d03fa6038c937a564001dad8741666194b0fd7
 
     public function getSourceContext()
     {
-        return new Twig_Source("<nav class=\"fh5co-nav\" role=\"navigation\">
+        return new Twig_Source("
+<nav class=\"fh5co-nav\" role=\"navigation\">
 \t\t<div class=\"top\">
 \t\t\t<div class=\"container\">
 \t\t\t\t<div class=\"row\">
@@ -145,10 +159,10 @@ class __TwigTemplate_ddb3d4ac25cee64ffb9b0d03fa6038c937a564001dad8741666194b0fd7
 \t\t\t\t\t</div>
 \t\t\t\t\t<div class=\"col-xs-11 text-right menu-1\">
 \t\t\t\t\t\t<ul>
-\t\t\t\t\t\t\t<li class=\"active\"><a href=\"/app_dev.php/platform\">Home</a></li>
-\t\t\t\t\t\t\t<li><a href=\"about\">About Us</a></li>
-\t\t\t\t\t\t\t<li><a href=\"pricing\">Pricing</a></li>
-\t\t\t\t\t\t\t<!--<li class=\"has-dropdown\">
+\t\t\t\t\t\t\t<li class=\"active\"><a href=\"{{path('oc_platform_home')}}\">Home</a></li>
+\t\t\t\t\t\t\t<li><a href=\"{{path('oc_platform_about')}}\">About Us</a></li>
+\t\t\t\t\t\t\t<li><a href=\"{{path('oc_platform_pricing')}}\">Pricing</a></li>
+\t\t\t\t\t\t\t<li class=\"has-dropdown\">
 \t\t\t\t\t\t\t\t<a href=\"blog.html\">Blog</a>
 \t\t\t\t\t\t\t\t<ul class=\"dropdown\">
 \t\t\t\t\t\t\t\t\t<li><a href=\"#\">Web Design</a></li>
@@ -156,8 +170,8 @@ class __TwigTemplate_ddb3d4ac25cee64ffb9b0d03fa6038c937a564001dad8741666194b0fd7
 \t\t\t\t\t\t\t\t\t<li><a href=\"#\">Branding</a></li>
 \t\t\t\t\t\t\t\t\t<li><a href=\"#\">API</a></li>
 \t\t\t\t\t\t\t\t</ul>
-\t\t\t\t\t\t\t</li>-->
-\t\t\t\t\t\t\t<li><a href=\"contact\">Contact</a></li>
+\t\t\t\t\t\t\t</li>
+\t\t\t\t\t\t\t<li><a href=\"{{path('oc_platform_contact')}}\">Contact</a></li>
                             {% if 21 < 12 %}
                                 <li><a href=\"profile.php\">My profile</a></li>
                                 <li><a href=\"textchat_demo.php\">Text Chat</a></li>
@@ -175,6 +189,6 @@ class __TwigTemplate_ddb3d4ac25cee64ffb9b0d03fa6038c937a564001dad8741666194b0fd7
 \t\t\t\t
 \t\t\t</div>
 \t\t</div>
-\t</nav>", "::nav.html.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\app/Resources\\views/nav.html.twig");
+\t</nav>", "::nav.html.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\app/Resources\\views/nav.html.twig");
     }
 }

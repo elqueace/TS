@@ -32,6 +32,12 @@ body {
   overflow: hidden;
   position: absolute;
 }
+/*
+* :after affecte une balise / ::after affecte toutes les balises
+
+* transition | -webkit-transition | -o-transition ciblent des navigateur differents
+
+*/
 .offcanvas #page:after {
   -webkit-transition: 2s;
   -o-transition: 2s;
@@ -52,6 +58,10 @@ a {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+/*
+* :active affecte le clic enfonce de la souris
+* :focus affecte la balise en focus.Exemple : les input
+*/
 a:hover, a:active, a:focus {
   color: #EA9215;
   outline: none;
@@ -61,7 +71,9 @@ a:hover, a:active, a:focus {
 p {
   margin-bottom: 20px;
 }
-
+/* 
+* les , sont comme des && en PHP
+*/
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
   font-family: "Work Sans", Arial, sans-serif;
@@ -69,6 +81,9 @@ h1, h2, h3, h4, h5, h6, figure {
   margin: 0 0 20px 0;
 }
 
+/*
+* ::selection affecte la zone selectione qui apparait generalement en bleu.exemple,on selectionne de texte
+*/
 ::-webkit-selection {
   color: #fff;
   background: #EA9215;
@@ -93,6 +108,14 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   z-index: 1001;
 }
+/*
+* padding:10px 5px 15px 20px;
+top is 10px
+right is 5px
+bottom is 15px
+left is 20px
+*/
+
 .fh5co-nav .top-menu {
   padding: 28px 0;
 }
@@ -104,6 +127,9 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   margin: 0;
 }
+/*
+*
+*/
 .fh5co-nav .top .num {
   color: rgba(255, 255, 255, 0.6);
   font-size: 13px;
@@ -141,11 +167,30 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 5px 10px;
   color: #fff;
 }
+/*
+@media not|only mediatype and (media feature) {
+    CSS-Code;
+}
+
+The @media rule is used to define different style rules for different media types/devices.
+
+Media queries look at the capability of the device, and can be used to check many things, such as:
+
+width and height of the viewport
+width and height of the device
+orientation (is the tablet/phone in landscape or portrait mode?)
+resolution
+and much more
+
+*/
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
     display: none;
   }
 }
+/*
+** Les espaces selectionne les enfant,petit enfant ...etc en desendant de gauche a droite
+*/
 .fh5co-nav ul {
   padding: 0;
   margin: 5px 0 0 0;

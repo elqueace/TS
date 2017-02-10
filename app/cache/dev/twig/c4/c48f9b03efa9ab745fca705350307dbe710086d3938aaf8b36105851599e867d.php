@@ -15,8 +15,8 @@ class __TwigTemplate_18e25460d056aaff1f84f8183a0ab7319e5d086c94f55bd483cff939747
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_051cf62b17e7cc4b054e3f0b2714aa89f0546121746f9c1b8337a98392b98fcd = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_051cf62b17e7cc4b054e3f0b2714aa89f0546121746f9c1b8337a98392b98fcd->enter($__internal_051cf62b17e7cc4b054e3f0b2714aa89f0546121746f9c1b8337a98392b98fcd_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.xml.twig"));
+        $__internal_8453e59d22e154a67de5325ec5937698ae0eb46ec4dbdf315669ed42cd254a21 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8453e59d22e154a67de5325ec5937698ae0eb46ec4dbdf315669ed42cd254a21->enter($__internal_8453e59d22e154a67de5325ec5937698ae0eb46ec4dbdf315669ed42cd254a21_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:error.xml.twig"));
 
         // line 1
         echo "<?xml version=\"1.0\" encoding=\"";
@@ -31,7 +31,7 @@ class __TwigTemplate_18e25460d056aaff1f84f8183a0ab7319e5d086c94f55bd483cff939747
         echo "\" />
 ";
         
-        $__internal_051cf62b17e7cc4b054e3f0b2714aa89f0546121746f9c1b8337a98392b98fcd->leave($__internal_051cf62b17e7cc4b054e3f0b2714aa89f0546121746f9c1b8337a98392b98fcd_prof);
+        $__internal_8453e59d22e154a67de5325ec5937698ae0eb46ec4dbdf315669ed42cd254a21->leave($__internal_8453e59d22e154a67de5325ec5937698ae0eb46ec4dbdf315669ed42cd254a21_prof);
 
     }
 
@@ -63,6 +63,6 @@ class __TwigTemplate_18e25460d056aaff1f84f8183a0ab7319e5d086c94f55bd483cff939747
         return new Twig_Source("<?xml version=\"1.0\" encoding=\"{{ _charset }}\" ?>
 
 <error code=\"{{ status_code }}\" message=\"{{ status_text }}\" />
-", "TwigBundle:Exception:error.xml.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\TwigBundle/Resources/views/Exception/error.xml.twig");
+", "TwigBundle:Exception:error.xml.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\TwigBundle/Resources/views/Exception/error.xml.twig");
     }
 }

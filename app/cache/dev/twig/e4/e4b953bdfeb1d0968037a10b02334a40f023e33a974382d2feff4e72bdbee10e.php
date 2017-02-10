@@ -15,8 +15,8 @@ class __TwigTemplate_28fc3a6627c434284cf8d558dc119700012132afed40ec2e07db51965ea
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_45eea1ead5b731766a19810de4b5d2706d7fa12e6a1bd675808727c78aaab76e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_45eea1ead5b731766a19810de4b5d2706d7fa12e6a1bd675808727c78aaab76e->enter($__internal_45eea1ead5b731766a19810de4b5d2706d7fa12e6a1bd675808727c78aaab76e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:traces.txt.twig"));
+        $__internal_20c5b2691b83e94fe8592939c3aaaa061a715f14ae5a21f83ab643d693f22476 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_20c5b2691b83e94fe8592939c3aaaa061a715f14ae5a21f83ab643d693f22476->enter($__internal_20c5b2691b83e94fe8592939c3aaaa061a715f14ae5a21f83ab643d693f22476_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "TwigBundle:Exception:traces.txt.twig"));
 
         // line 1
         if (twig_length_filter($this->env, $this->getAttribute((isset($context["exception"]) ? $context["exception"] : $this->getContext($context, "exception")), "trace", array()))) {
@@ -35,7 +35,7 @@ class __TwigTemplate_28fc3a6627c434284cf8d558dc119700012132afed40ec2e07db51965ea
             $context = array_intersect_key($context, $_parent) + $_parent;
         }
         
-        $__internal_45eea1ead5b731766a19810de4b5d2706d7fa12e6a1bd675808727c78aaab76e->leave($__internal_45eea1ead5b731766a19810de4b5d2706d7fa12e6a1bd675808727c78aaab76e_prof);
+        $__internal_20c5b2691b83e94fe8592939c3aaaa061a715f14ae5a21f83ab643d693f22476->leave($__internal_20c5b2691b83e94fe8592939c3aaaa061a715f14ae5a21f83ab643d693f22476_prof);
 
     }
 
@@ -70,6 +70,6 @@ class __TwigTemplate_28fc3a6627c434284cf8d558dc119700012132afed40ec2e07db51965ea
 
 {% endfor %}
 {% endif %}
-", "TwigBundle:Exception:traces.txt.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\TwigBundle/Resources/views/Exception/traces.txt.twig");
+", "TwigBundle:Exception:traces.txt.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\TwigBundle/Resources/views/Exception/traces.txt.twig");
     }
 }

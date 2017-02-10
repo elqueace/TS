@@ -252,6 +252,6 @@ class __TwigTemplate_693fc440f1d5a91daad30301dfd75015ff9e33b9d091935d5afcd1947cf
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "SecurityBundle:Collector:security.html.twig", "C:\\Users\\ludovic\\Documents\\GitHub\\tutorskills\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\SecurityBundle/Resources/views/Collector/security.html.twig");
+        return new Twig_Source("", "SecurityBundle:Collector:security.html.twig", "C:\\wamp\\www\\tutorskills_symf\\path\\vendor\\symfony\\symfony\\src\\Symfony\\Bundle\\SecurityBundle/Resources/views/Collector/security.html.twig");
     }
 }
