@@ -49,6 +49,12 @@ class AdvertController extends Controller
     return $this->render('OCPlatformBundle:Advert:log_reg.html.twig');
   }
 
+  public function unityAction()
+  {
+   
+    return $this->render('OCPlatformBundle:Advert:unity.html.twig');
+  }
+
     public function indexAction()
     {
     	$content = $this->get('templating')->render('OCPlatformBundle:Advert:index.html.twig');
