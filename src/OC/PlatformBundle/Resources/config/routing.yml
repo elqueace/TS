@@ -1,25 +1,25 @@
 # src/OC/PlatformBundle/Resources/config/routing.yml
 
 oc_platform_home:
-    path:      /platform
+    path:      /
     defaults:  { _controller: OCPlatformBundle:Advert:index }
     
 oc_platform_contact:
-    path:      /platform/contact
+    path:     /contact
     defaults:  { _controller: OCPlatformBundle:Advert:contact }
     
 oc_platform_pricing:
-    path:      /platform/pricing
+    path:      /pricing
     defaults:  { _controller: OCPlatformBundle:Advert:pricing }
 
 oc_platform_about:
-    path:      /platform/about
+    path:      /about
     defaults:  { _controller: OCPlatformBundle:Advert:about }
     
 oc_platform_log_reg:
-    path:      /platform/log_reg
+    path:      /log_reg
     defaults:  { _controller: OCPlatformBundle:Advert:log_reg }
     
 oc_platform_unity:
-    path:      /platform/unity
+    path:      /unity
     defaults:  { _controller: OCPlatformBundle:Advert:unity }

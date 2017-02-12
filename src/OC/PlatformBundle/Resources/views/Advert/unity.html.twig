@@ -46,11 +46,7 @@
         <script src="{{ asset('js/jquery.magnific-popup.min.js') }}"></script>
         <script src="{{ asset('js/magnific-popup-options.js') }}"></script>
         <script src="{{ asset('js/main.js') }}"></script>
-    	<!-- Google Map -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
-    <script src="{{ asset('js/google_map.js') }}"></script>
-        
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    	        
     <script type="text/javascript">
         <!--
         var unityObjectUrl = "http://webplayer.unity3d.com/download_webplayer-3.x/3.0/uo/UnityObject2.js";
@@ -62,8 +58,8 @@
         <script type="text/javascript">
         var config = {
 
-              width : 1500,
-              height : 1000,
+              width : "100%",
+              height : 800,
               params : {enableDebugging:""}
               }
 
@@ -94,27 +90,27 @@
             }
         });
         jQuery(function(){
-            u.initPlugin(jQuery("#unityPlayer")[0], "assets/lostisland.unity3d");
+            u.initPlugin(jQuery("#unityPlayer")[0], "{{ asset('others/lostisland.unity3d') }}");
         });
         </script>
 {% endblock %}
         
 	</head>
-	<body>
+	<body style="background-color:#A4A4A4">
 		
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
     {{ include("::nav.html.twig") }}
 
-	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url({{ asset('images/diverse.jpg') }});" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url({{ asset('images/unity.jpg') }});" data-stellar-background-ratio="0.5" >
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Join Us</h1>
+							<h1>A game created on top of Unity 3D</h1>
 						</div>
 					</div>
 				</div>
@@ -122,11 +118,14 @@
 		</div>
 	</header>
 
-     <p class="header">
-            <span>Unity Web Player | </span>WebPlayer
-        </p>
-        <div class="content" >
-            <div id="unityPlayer" >
+    <div class="container" >
+        <div class="row"> </div>
+            <div class="row">
+        
+            <div style="height:10px;" >
+              
+            </div> 
+            <div id="unityPlayer"style="margin-bottom:10px;" >
                 <div class="missing">
                     <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
                         <img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
@@ -134,9 +133,8 @@
                 </div>
             </div>
         </div>
-        <p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
 
-	
+	</div>
 	 {{ include("::footer.html.twig") }}
 	</div>
 
