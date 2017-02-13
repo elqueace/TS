@@ -96,7 +96,7 @@
 {% endblock %}
         
 	</head>
-	<body style="background-color:#A4A4A4">
+	<body style="background-color:#FAFAFA">
 		
 	<div class="fh5co-loader"></div>
 	
@@ -118,14 +118,27 @@
 		</div>
 	</header>
 
-    <div class="container" >
-        <div class="row"> </div>
+    <div class="container-fluid" >
+         <div class="row">
+         <div style="visibility: hidden;" >
+             <p>gfssrdgf</p>
+            </div>
+             </div>
             <div class="row">
         
-            <div style="height:10px;" >
-              
-            </div> 
-            <div id="unityPlayer"style="margin-bottom:10px;" >
+            <div class="col-md-2"  >
+                <h2>Instructions :</h2>
+                <ul style="list-style-image: url('{{ asset('images/unity_logo.png') }}');">
+                    <li><a href="https://unity3d.com/webplayer/">Download Unity Web Player</a></li>
+                    <li><p>Allow the web player in the browser</p></li>
+                    <li><p>Use directional keys on your keyboard and your mouse to move an discover the world !</p></li>
+                    <li><p>If you are stuck, type space to jump</p></li>
+                    <li><p>Enjoy !</p></li>
+				    
+                </ul>
+            </div>
+                
+            <div id="unityPlayer" class="col-md-10" style="margin-bottom:10px;" >
                 <div class="missing">
                     <a href="http://unity3d.com/webplayer/" title="Unity Web Player. Install now!">
                         <img alt="Unity Web Player. Install now!" src="http://webplayer.unity3d.com/installation/getunity.png" width="193" height="63" />
