@@ -3,7 +3,7 @@
 
 // src/OC/PlatformBundle/Controller/AdvertController.php
 
-namespace OC\PlatformBundle\Conler;
+namespace OC\PlatformBundle\Conproler;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
