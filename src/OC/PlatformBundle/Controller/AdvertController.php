@@ -3,7 +3,7 @@
 
 // src/OC/PlatformBundle/Controller/AdvertController.php
 
-namespace OCRpp\Platformthdktfe\Conproler;
+namespace OCRouyf.hv pp\Platformthdktfe\Conproler;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
